@@ -3,7 +3,7 @@ import { AiOutlineCheck } from "react-icons/ai";
 
 const AllOne = () => {
   return (
-    <div className="w-full my-32">
+    <div name="platforms" className="w-full my-32">
       <div className="max-w-[1240px] mx-auto px-2">
         <h1 className="text-center font-bold text-5xl">All-One-Platform</h1>
         <p className="text-center py-8 text-2xl text-gray-500">
@@ -83,7 +83,6 @@ const AllOne = () => {
             </div>
           </div>
 
-
           <div className="flex">
             <div>
               <AiOutlineCheck className="mr-4 mt-1 w-7 text-green-600 " />
@@ -132,5 +131,3 @@ const AllOne = () => {
 };
 
 export default AllOne;
-
-
